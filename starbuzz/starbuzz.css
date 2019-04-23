@@ -5,7 +5,7 @@ body {
   margin:           0px;
 }
 
-header {
+.top {
   background-color: #675c47;
   margin:           10px 10px 10px 10px;
   height:           108px;
@@ -110,10 +110,52 @@ vertical-align: top;
   #coupon{
     position:fixed;
     top: 350px;
-    left:-90px;
+    left:-180px;
     
   }
   #coupon a,img{
     border: none;
 
   }
+  ul{
+    background-color: #efe5d0;
+    margin:10px 10px 0px 10px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+  }
+  ul li{
+    display: inline;
+    padding: 5px 10px 5px 10px
+  }
+  ul li a:link, ul li a:visited{
+    color:#954b4b;
+    border-bottom:none;
+    font-weight: bold;
+  }
+  ul li.selected{
+    background-color: #c8b99c;
+  }
+  nav{
+    background-color: #efe5d0;
+    margin: 10px 10px 0px 10px;
+  }
+  nav ul{
+    margin: 0px;
+    list-style-type:none ;
+    padding: 5px 0px 5px 0px;
+  }
+  nav ul li{
+    display: inline;
+    padding:  5px 10px 5px 10px;
+  }
+  nav ul li a:link, ul li a:visited{
+    color:#954b4b;
+    border-bottom:none;
+    font-weight: bold;
+  }
+  nav ul li.selected{
+    background-color: #c8b99c;
+  }
+#coupon:hover{
+  left: 0px;
+}
